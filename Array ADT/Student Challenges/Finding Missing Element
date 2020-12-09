@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+struct Array{
+int A[11];
+int size;
+int length;
+};
+
+
+
+int main()
+{
+    int ele,s,sum=0,i;
+    int A[11]={1,2,3,4,5,6,8,9,10,11};
+    for(i=0;i<11;i++)
+    {
+        sum=sum+A[i];
+    }
+    s=(11*12)/2;
+    ele=s-sum;
+    printf("Missing element is %d",ele);
+
+}
+
